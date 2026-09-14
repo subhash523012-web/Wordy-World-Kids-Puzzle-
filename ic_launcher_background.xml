@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep space radial gradient -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="76"
+                android:type="radial">
+                <item android:color="#FF0D47A1" android:offset="0.0" />
+                <item android:color="#FF101652" android:offset="0.6" />
+                <item android:color="#FF070B28" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Sci-fi neon grid lines -->
+    <path
+        android:pathData="M18,0L18,108 M36,0L36,108 M54,0L54,108 M72,0L72,108 M90,0L90,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#2000E676" />
+    <path
+        android:pathData="M0,18L108,18 M0,36L108,36 M0,54L108,54 M0,72L108,72 M0,90L108,90"
+        android:strokeWidth="0.8"
+        android:strokeColor="#2000E676" />
+    <!-- Diagonal cyber circuit accent -->
+    <path
+        android:pathData="M0,0L40,40 M108,108L68,68"
+        android:strokeWidth="1.2"
+        android:strokeColor="#30D500F9" />
+</vector>
